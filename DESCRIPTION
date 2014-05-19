@@ -1,0 +1,19 @@
+Package: cacheMGM
+Type: Package
+Title: Tools for chaching objects and avoid re-calculations
+Version: 0.1
+Author: Mario Gamboa<mgamboam@outlook.com>
+Maintainer: Mario Gamboa<mgamboam@outlook.com>
+Description: cacheMGM includes 2 tools for object caching, one for calculating
+    the mean on a vector, the other to calculate the inverse of a metrix.
+    Developed as part of the R Programming class from Johns Hopkins U in
+    coursera. https://class.coursera.org/rprog-003/
+URL: https://github.com/mgamboam/ProgrammingAssignment2
+Depends: R (>= 3.1.0)
+Imports:
+    Rcpp (>= 0.11.0)
+LinkingTo: Rcpp
+Suggests:
+License: NA
+LazyData: true
+Roxygen: list(wrap = FALSE)
